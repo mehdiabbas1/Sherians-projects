@@ -1,0 +1,127 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.container{
+    background-color: #1a1818;
+    height: 100vh;
+    position: relative;
+}
+
+header{
+    background-color: #333;
+    width: 100vw;
+    color: #f0eeee;
+    text-align: center;
+    padding: 1em;
+    font-weight: Bold;
+    font-size: 2em;
+    font-family: PLayfair Display;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+.main-nav{
+    background-color: #f0eeee;
+    height: 1vh;
+    width: 100vw;
+    text-align: center;
+    padding: 1em;
+    border: 1px solid #333;
+}
+nav a{
+    color: #333;
+    text-decoration: none;
+    padding: 1em;
+}
+
+nav a:hover{
+    color: #f0eeee;
+    background-color: #333;
+
+}
+
+.sidebar{
+    background-color: #f0eeee;
+    height: 100%;
+    width: 15%;
+    position: absolute;
+    top: 21.8%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.8em;
+}
+
+.sidebar h1{
+    font-size: x-large;
+}
+
+.sidebar a{
+    color: black;
+    font-family: arial;
+    text-decoration: none;
+}
+
+.content{
+    background-color: white;
+    height: 100%;
+    width: 85%;
+    position: absolute;
+    top: 21.8%;
+    right: 0;
+    padding-left: 1em;    
+}
+
+.images{
+    /* background-color: red; */
+    /* width: 20%; */
+    height: 50%;
+    gap: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+img{
+    /* margin-left: 45px; */
+    width: 120%;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+p{
+    font-size: 1.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+span{
+    font-weight: 900;
+}
+footer{
+    background-color: #333;
+    color: #f0eeee;
+    text-align: center;
+    /* padding: 1em; */
+    font-weight: Bold;
+    /* font-size: 1em; */
+    font-family: PLayfair Display;
+    letter-spacing: 1px;
+    /* margin-top: 0; */
+    position: absolute;
+    bottom: -30%;
+    width: 100%;
+    height:6%;
+} 
